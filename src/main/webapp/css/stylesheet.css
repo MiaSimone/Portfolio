@@ -1,0 +1,99 @@
+body {
+    font-family: 'Playfair Display', sans-serif !important;
+    color: black;
+    background-color: antiquewhite;
+}
+.first {
+    background-image: url("../Images/FoggyWoods (3).JPG");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.navbar-brand {
+    font-size: 25px;
+}
+.Mia1 {
+    width: 50%;
+}
+.fa-camera-retro {
+    font-size: 30px;
+}
+.fa-minus {
+    font-size: 30px;
+}
+.col {
+    text-align: center;
+}
+.heading {
+    font-size: 35px;
+}
+
+/* Modal Portfolio-part */
+.container1 {
+    position: relative;
+    width: 100%;
+}
+
+.image1 {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.overlay1 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .7s ease;
+    background-color: #005c99;
+}
+.overlay2 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .7s ease;
+    background-color: 	 #e6004c;
+}
+.overlay3 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .7s ease;
+    background-color: #009900;
+}
+
+.container1:hover .overlay1 {
+    opacity: 1;
+}
+.container1:hover .overlay2 {
+    opacity: 1;
+}
+.container1:hover .overlay3 {
+    opacity: 1;
+}
+
+.text1 {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
